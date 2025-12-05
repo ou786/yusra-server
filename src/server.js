@@ -12,7 +12,7 @@ connectDB();
 
 const app = express();
 app.use(cors({
-  origin: "https://yusra-nine.vercel.app/",
+  origin: "https://yusra-nine.vercel.app",
   credentials: true,
 }));
 app.use(express.json());
